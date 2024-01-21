@@ -19,7 +19,7 @@ btn.addEventListener('click', function() {
         'GET', 
         `https://learnwebcode.github.io/json-example/animals-${pageCounter}.json`);
 
-    ourRequest.onload = function() {
+        ourRequest.onload = function() {
         let ourData = JSON.parse(ourRequest.responseText);
         renderHTML(ourData);
     }
