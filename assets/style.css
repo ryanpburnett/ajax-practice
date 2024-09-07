@@ -5,7 +5,8 @@ h1 {
 }
 
 body {
-    background-color: darkmagenta;
+    background: rgb(95,95,155);
+    background: linear-gradient(90deg, rgba(95,95,155,1) 0%, rgba(242,205,255,1) 75%);
 }
 
 p {
